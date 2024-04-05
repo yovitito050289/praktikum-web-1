@@ -24,7 +24,7 @@ TI 1 A
 
 ### Contoh
 Input
-Output
+![alt text](foto/)
 
 ## CSS
 - CSS adalah singkatan dari Cascading Style Sheet
