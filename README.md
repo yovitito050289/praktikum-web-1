@@ -49,7 +49,10 @@ h1 {color:blue; font-size:12px;}
 
 ### Contoh
 Input
+![alt text](foto/inputcss1.png)
+![alt text](foto/inputcss2.png)
 Output
+![alt text](foto/outputcss.png)
 
 ## JS
 - JAVASCRIPT (javaScript atau kita singkat menjadi JS merupakan bahasa pemrograman jenis interpreter)
@@ -62,4 +65,8 @@ Output
 
 ### Contoh
 Input
+![alt text](foto/inputjs1.png)
+![alt text](foto/inputjs2.png)
+![alt text](foto/inputjs3.png)
 Output
+![alt text](foto/outputjs.png)
