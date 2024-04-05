@@ -19,8 +19,12 @@ TI 1 A
 6. Elemen h1 mendefinisikan judul besar
 7. Elemen p mendefinisikan paragraf
 8. Atribut href menentukan URL halaman yang dituju linknya
-9. Background color mendefinisikan warna latar belakang untuk elemen HTML.
-10. List HTML memungkinkan pengembang web mengelompokkan sekumpulan item terkait dalam daftar
+9. Color memungkinkan pengembang mengganti warna dari elemen.
+10. Background color mendefinisikan warna latar belakang untuk elemen HTML.
+11. List HTML memungkinkan pengembang web mengelompokkan sekumpulan item terkait dalam daftar.
+12. Tabel html memiliki colspan yang berfungsi untuk membuat sel menjangkau beberapa kolom. Penjelasan mengenai tr, th, td: tr(baris tabel), td(header tabel), td(data tabel). Tabel bisa di desain menggunakan border.
+13. Tag img digunakan untuk menyematkan gambar di halaman HTML. Atribut src menentukan jalur ke gambar yang akan ditampilkan. Ada juga Atribut Lebar dan Tinggi untuk menentukan ukuran gambar.
+
 
 ### Contoh
 Input
