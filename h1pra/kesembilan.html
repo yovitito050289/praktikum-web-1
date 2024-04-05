@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-style: arial;
+            }
+            table, td, tr {
+                border:1px solid;
+                border-collapse: collapse;
+                width: 200px;
+                height: 40px;
+            }
+            .satu, .dua, .empat{
+                background-color: lightgray;
+            }
+            tr :hover{
+                background-color: darkgray;
+                transition: 300ms;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>JavaScript Arithmetic</h1>
+        <table>
+            <tr class="satu">
+                <td>Variable</td>
+                <td>Nilai</td>
+            </tr>
+            <tr class="dua">
+                <td>a</td>
+                <td id="a">5</td>
+            </tr>
+            <tr class="tiga">
+                <td>b</td>
+                <td id="b">2</td>
+            </tr>
+            <tr class="empat">
+                <td>c</td>
+                <td id="c">1</td>
+            </tr>
+            <tr>
+                <td>Hasil</td>
+                <td id="hasil" onmouseover="tampilHasil()" onmouseout="hapusHasil()"></td>
+            </tr>
+        </table>
+        </center>
+        <div>
+            <script>
+                function hitung(a,b,c){
+                    return a+b-c;
+                }
+
+                function tampilHasil(){
+                    let a= parseInt(document.getElementById('a').innerText);
+                    let b= parseInt(document.getElementById('b').innerText);
+                    let c= parseInt(document.getElementById('c').innerText);
+
+                    let hasil= hitung(a,b,c);
+                    document.getElementById("hasil").innerHTML=hasil;
+                }
+                function hapusHasil(){
+                    document.getElementById("hasil").innerHTML="";
+                }
+            </script>
+        </div>
+    </body>
+</html>
