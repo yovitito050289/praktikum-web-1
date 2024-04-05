@@ -50,6 +50,7 @@ h1 {color:blue; font-size:12px;}
 - Boxmodel.html : Box Model CSS pada dasarnya adalah sebuah kotak yang membungkus setiap elemen HTML. Terdiri dari: konten, padding, border dan margin. Konten itu isi dari box, padding:jarak area konten, border:garis yang mengelilingi konten, margin:jarak luar konten. width itu menentukan ukuran lebar, height itu menentukan ukuran tinggi
 - Outline.html : Outline adalah garis yang digambar di sekeliling elemen, di luar batas, untuk membuat elemen "menonjol". Properti outline-style menentukan gaya kerangka, dan dapat memiliki salah satu nilai berikut: dotted- Mendefinisikan garis putus-putus dashed- Mendefinisikan garis putus-putus solid- Mendefinisikan garis besar yang solid Didalam outline kita juga dapat menentukan width(lebar),color(warna)
 - tabel.html : Dalam pembuatan tabel CSS, bisa menentukan font, border, padding, text-align, color, dll. Agar saat kursor mengarahkan ke arah salah satu baris bisa berubah warna kalian bisa menggunakan hover di tr
+- Atribut classs sering digunakan untuk menunjuk ke nama kelas dalam style sheet. Itu juga dapat digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan nama kelas tertentu.
 
 ### Contoh
 Input
