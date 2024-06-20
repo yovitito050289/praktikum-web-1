@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Challenge</title>
-
-    <style>
-        table, th, td {
-          border: 1px solid black;
-          border-collapse: collapse;  
-        }
-        
-    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      table{
+         width: 30%;
+      }
+      table tr{
+         background-color: cyan;
+      }
+      tr:nth-child(even){
+         text-align: right;
+      }
+      td:last-child{
+         text-align: center;
+      }
+      img{
+         width: 2rem;
+         height: 2rem;
+         text-align: center;
+      }
+      .judul{
+         color: chocolate;
+      }
+   </style>
 </head>
 <body>
-    <h1>Challenge 1 - CSS</h1>
-    <table>
-        <tr>
-          <th>Materi</th>
-          <th>Sub Materi</th>
-          <th>Icon</th>
-        </tr>
-        <tr>
-          <td>Materi 1</td>
-          <td>HTML</td>
-          <td><img src="https://world-it.ro/images/logo_html.png" alt="html" width="100px" height="100"></td>
-        </tr>
-        <tr>
-          <td>Materi 2</td>
-          <td>CSS</td>
-          <td><img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" alt="css" width="100px" height="100"></td>
-        </tr>
-        <tr>
-          <td>Materi 3</td>
-          <td>Javascript</td>
-          <td><img src="https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png" alt="js" width="100px" height="100"></td>
-        </tr>
-    </table>
-      
+   <h1>Challenge 1 - CSS</h1>
+   <table cellpadding="5" border="1" cellspacing="2">
+      <tr class="judul">
+         <th>Materi</th>
+         <th>Sub Materi</th>
+         <th style="width: 15%;">Icon</th>
+      </tr>
+      <tr>
+         <td>Materi 1</td>
+         <td>Html</td>
+         <td><img src="https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design.png" alt=""></td>
+      </tr>
+      <tr>
+         <td>Materi 2</td>
+         <td>CSS</td>
+         <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSewZllx3tPyd1XH2Jv7aBr9M9N-TuTO0KvkRctkNe4uho39E4-EVhAk-TYF6ycnB9Ax70&usqp=CAU" alt=""></td>
+      </tr>
+      <tr>
+         <td>Materi 3</td>
+         <td>JavaScript</td>
+         <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt=""></td>
+      </tr>
+   </table>
 </body>
 </html>
